@@ -42,6 +42,7 @@
 		02E8C98928A5845A0056C7BD /* Solution145.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C98828A5845A0056C7BD /* Solution145.cpp */; };
 		02E8C99E28AAB75D0056C7BD /* Solution36.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C99D28AAB75D0056C7BD /* Solution36.cpp */; };
 		02E8C9A028AAC8A50056C7BD /* Solution74.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C99F28AAC8A50056C7BD /* Solution74.cpp */; };
+		02E8C9DF28AB0DA90056C7BD /* Solution876.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9DD28AB0DA90056C7BD /* Solution876.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -214,6 +215,8 @@
 		02E8C98828A5845A0056C7BD /* Solution145.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution145.cpp; sourceTree = "<group>"; };
 		02E8C99D28AAB75D0056C7BD /* Solution36.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution36.cpp; sourceTree = "<group>"; };
 		02E8C99F28AAC8A50056C7BD /* Solution74.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution74.cpp; sourceTree = "<group>"; };
+		02E8C9DD28AB0DA90056C7BD /* Solution876.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution876.cpp; sourceTree = "<group>"; };
+		02E8C9E128AB0DDE0056C7BD /* ListNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +376,7 @@
 		02E8C8E828A42DE80056C7BD /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				02E8C9E128AB0DDE0056C7BD /* ListNode.hpp */,
 				02E8C8E928A42DE80056C7BD /* main.cpp */,
 				02E8C96E28A4351C0056C7BD /* Solution977.cpp */,
 				02E8C97028A435790056C7BD /* Solution189.cpp */,
@@ -380,6 +384,7 @@
 				02E8C97428A4383C0056C7BD /* Solution167.cpp */,
 				02E8C97828A439160056C7BD /* Solution344.cpp */,
 				02E8C97628A438930056C7BD /* Solution557.cpp */,
+				02E8C9DD28AB0DA90056C7BD /* Solution876.cpp */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -808,6 +813,7 @@
 			files = (
 				02E8C97728A438930056C7BD /* Solution557.cpp in Sources */,
 				02E8C96F28A4351C0056C7BD /* Solution977.cpp in Sources */,
+				02E8C9DF28AB0DA90056C7BD /* Solution876.cpp in Sources */,
 				02E8C8EA28A42DE80056C7BD /* main.cpp in Sources */,
 				02E8C97528A4383C0056C7BD /* Solution167.cpp in Sources */,
 				02E8C97A28A439160056C7BD /* Solution344.cpp in Sources */,

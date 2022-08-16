@@ -45,6 +45,7 @@
 		02E8C9DF28AB0DA90056C7BD /* Solution876.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9DD28AB0DA90056C7BD /* Solution876.cpp */; };
 		02E8C9E428AB134A0056C7BD /* Solution19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9E328AB134A0056C7BD /* Solution19.cpp */; };
 		02E8C9E628AC13280056C7BD /* Solution387.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9E528AC13280056C7BD /* Solution387.cpp */; };
+		02E8C9E828AC1D140056C7BD /* Solution383.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9E728AC1D140056C7BD /* Solution383.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -221,6 +222,7 @@
 		02E8C9E128AB0DDE0056C7BD /* ListNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNode.hpp; sourceTree = "<group>"; };
 		02E8C9E328AB134A0056C7BD /* Solution19.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution19.cpp; sourceTree = "<group>"; };
 		02E8C9E528AC13280056C7BD /* Solution387.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution387.cpp; sourceTree = "<group>"; };
+		02E8C9E728AC1D140056C7BD /* Solution383.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution383.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,6 +459,7 @@
 			children = (
 				02E8C93628A42E6E0056C7BD /* main.cpp */,
 				02E8C9E528AC13280056C7BD /* Solution387.cpp */,
+				02E8C9E728AC1D140056C7BD /* Solution383.cpp */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -892,6 +895,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02E8C93728A42E6E0056C7BD /* main.cpp in Sources */,
+				02E8C9E828AC1D140056C7BD /* Solution383.cpp in Sources */,
 				02E8C9E628AC13280056C7BD /* Solution387.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

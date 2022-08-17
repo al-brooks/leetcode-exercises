@@ -46,6 +46,10 @@
 		02E8C9E428AB134A0056C7BD /* Solution19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9E328AB134A0056C7BD /* Solution19.cpp */; };
 		02E8C9E628AC13280056C7BD /* Solution387.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9E528AC13280056C7BD /* Solution387.cpp */; };
 		02E8C9E828AC1D140056C7BD /* Solution383.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9E728AC1D140056C7BD /* Solution383.cpp */; };
+		02E8C9EA28AC30E80056C7BD /* Solution242.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9E928AC30E80056C7BD /* Solution242.cpp */; };
+		02E8C9F228AC32960056C7BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9F128AC32960056C7BD /* main.cpp */; };
+		02E8C9F728AC32BF0056C7BD /* Solution3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9F628AC32BF0056C7BD /* Solution3.cpp */; };
+		02E8C9F928AC40B60056C7BD /* Solution567.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C9F828AC40B60056C7BD /* Solution567.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,6 +170,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		02E8C9ED28AC32960056C7BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -223,6 +236,11 @@
 		02E8C9E328AB134A0056C7BD /* Solution19.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution19.cpp; sourceTree = "<group>"; };
 		02E8C9E528AC13280056C7BD /* Solution387.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution387.cpp; sourceTree = "<group>"; };
 		02E8C9E728AC1D140056C7BD /* Solution383.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution383.cpp; sourceTree = "<group>"; };
+		02E8C9E928AC30E80056C7BD /* Solution242.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution242.cpp; sourceTree = "<group>"; };
+		02E8C9EF28AC32960056C7BD /* SlidingWindow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SlidingWindow; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E8C9F128AC32960056C7BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		02E8C9F628AC32BF0056C7BD /* Solution3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution3.cpp; sourceTree = "<group>"; };
+		02E8C9F828AC40B60056C7BD /* Solution567.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution567.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +335,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		02E8C9EC28AC32960056C7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -326,6 +351,7 @@
 				02E8C8D028A42D2E0056C7BD /* DataStructures_Algorithms */,
 				02E8C8DD28A42DD40056C7BD /* BinarySearch */,
 				02E8C8E828A42DE80056C7BD /* TwoPointers */,
+				02E8C9F028AC32960056C7BD /* SlidingWindow */,
 				02E8C8F328A42E0B0056C7BD /* BreadthFirstSearch */,
 				02E8C8FE28A42E1B0056C7BD /* DepthFirstSearch */,
 				02E8C90928A42E2B0056C7BD /* Recursion */,
@@ -356,6 +382,7 @@
 				02E8C93F28A42E730056C7BD /* LinkedList */,
 				02E8C94A28A42E840056C7BD /* StackQueue */,
 				02E8C95528A42E970056C7BD /* Tree */,
+				02E8C9EF28AC32960056C7BD /* SlidingWindow */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -460,6 +487,7 @@
 				02E8C93628A42E6E0056C7BD /* main.cpp */,
 				02E8C9E528AC13280056C7BD /* Solution387.cpp */,
 				02E8C9E728AC1D140056C7BD /* Solution383.cpp */,
+				02E8C9E928AC30E80056C7BD /* Solution242.cpp */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -490,6 +518,16 @@
 				02E8C98828A5845A0056C7BD /* Solution145.cpp */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		02E8C9F028AC32960056C7BD /* SlidingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				02E8C9F128AC32960056C7BD /* main.cpp */,
+				02E8C9F628AC32BF0056C7BD /* Solution3.cpp */,
+				02E8C9F828AC40B60056C7BD /* Solution567.cpp */,
+			);
+			path = SlidingWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -716,6 +754,23 @@
 			productReference = 02E8C95528A42E970056C7BD /* Tree */;
 			productType = "com.apple.product-type.tool";
 		};
+		02E8C9EE28AC32960056C7BD /* SlidingWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E8C9F328AC32960056C7BD /* Build configuration list for PBXNativeTarget "SlidingWindow" */;
+			buildPhases = (
+				02E8C9EB28AC32960056C7BD /* Sources */,
+				02E8C9EC28AC32960056C7BD /* Frameworks */,
+				02E8C9ED28AC32960056C7BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingWindow;
+			productName = SlidingWindow;
+			productReference = 02E8C9EF28AC32960056C7BD /* SlidingWindow */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -764,6 +819,9 @@
 					02E8C95428A42E970056C7BD = {
 						CreatedOnToolsVersion = 13.3;
 					};
+					02E8C9EE28AC32960056C7BD = {
+						CreatedOnToolsVersion = 13.3;
+					};
 				};
 			};
 			buildConfigurationList = 02E8C8C928A42D2D0056C7BD /* Build configuration list for PBXProject "DataStructures_Algorithms" */;
@@ -792,6 +850,7 @@
 				02E8C93E28A42E730056C7BD /* LinkedList */,
 				02E8C94928A42E840056C7BD /* StackQueue */,
 				02E8C95428A42E970056C7BD /* Tree */,
+				02E8C9EE28AC32960056C7BD /* SlidingWindow */,
 			);
 		};
 /* End PBXProject section */
@@ -895,6 +954,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02E8C93728A42E6E0056C7BD /* main.cpp in Sources */,
+				02E8C9EA28AC30E80056C7BD /* Solution242.cpp in Sources */,
 				02E8C9E828AC1D140056C7BD /* Solution383.cpp in Sources */,
 				02E8C9E628AC13280056C7BD /* Solution387.cpp in Sources */,
 			);
@@ -924,6 +984,16 @@
 				02E8C95828A42E970056C7BD /* main.cpp in Sources */,
 				02E8C98728A56B790056C7BD /* Solution94.cpp in Sources */,
 				02E8C98928A5845A0056C7BD /* Solution145.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E8C9EB28AC32960056C7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E8C9F928AC40B60056C7BD /* Solution567.cpp in Sources */,
+				02E8C9F728AC32BF0056C7BD /* Solution3.cpp in Sources */,
+				02E8C9F228AC32960056C7BD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1247,6 +1317,22 @@
 			};
 			name = Release;
 		};
+		02E8C9F428AC32960056C7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02E8C9F528AC32960056C7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1372,6 +1458,15 @@
 			buildConfigurations = (
 				02E8C95A28A42E970056C7BD /* Debug */,
 				02E8C95B28A42E970056C7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E8C9F328AC32960056C7BD /* Build configuration list for PBXNativeTarget "SlidingWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E8C9F428AC32960056C7BD /* Debug */,
+				02E8C9F528AC32960056C7BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

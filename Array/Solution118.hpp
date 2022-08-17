@@ -1,3 +1,6 @@
+#ifndef Solution118_hpp
+#define Solution118_hpp
+
 // Problem 118: Pascal's Triangle
 #include <vector>
 
@@ -24,3 +27,5 @@ public:
         return allRows;
     }
 };
+
+#endif /* Solution118_hpp */

@@ -1,3 +1,6 @@
+#ifndef Solution283_hpp
+#define Solution283_hpp
+
 // Problem 283 - Move Zeroes
 #include <vector>
 #include <algorithm>
@@ -47,3 +50,4 @@ public:
 
 };
 
+#endif

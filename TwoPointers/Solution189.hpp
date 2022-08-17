@@ -1,3 +1,6 @@
+#ifndef Solution189_hpp
+#define Solution189_hpp
+
 // Problem 189: Rotate Array
 #include <vector>
 
@@ -61,3 +64,4 @@ public:
     }
 };
 
+#endif

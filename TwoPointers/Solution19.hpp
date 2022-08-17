@@ -1,3 +1,6 @@
+#ifndef Solution19_hpp
+#define Solution19_hpp
+
 // Problem 19: Remove Nth Node from End of List
 #include "ListNode.hpp"
 
@@ -62,3 +65,5 @@ public:
         return copy->next;
     }
 };
+
+#endif

@@ -1,6 +1,3 @@
-#ifndef Solution344_hpp
-#define Solution344_hpp
-
 // Problem 344: Reverse String
 #include <vector>
 
@@ -20,4 +17,3 @@ public:
     }
 };
 
-#endif /* Solution344_hpp */

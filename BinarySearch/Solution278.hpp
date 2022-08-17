@@ -1,3 +1,6 @@
+#ifndef Solution278_hpp
+#define Solution278_hpp
+
 // Problem 278: First Bad Version:
 
 class Solution278 {
@@ -23,3 +26,4 @@ public:
     }
 };
 
+#endif

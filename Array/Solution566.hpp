@@ -1,3 +1,6 @@
+#ifndef Solution566_hpp
+#define Solution566_hpp
+
 // Problem 566: Reshape the Matrix
 #include <vector>
 #include <queue>
@@ -52,3 +55,6 @@ public:
         return result;
     }
 };
+
+
+#endif /* Solution566_hpp */

@@ -1,3 +1,6 @@
+#ifndef Solution217_hpp
+#define Solution217_hpp
+
 /*
   Problem 217: Contains Duplicate:
   -> Given an integer array nums, return true if any value
@@ -28,3 +31,6 @@ public:
         return false;
     }
 };
+
+
+#endif /* Solution217_hpp */

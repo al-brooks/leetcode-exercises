@@ -1,3 +1,6 @@
+#ifndef Solution53_hpp
+#define Solution53_hpp
+
 /*
      Problem 53: Maximum Subarray:
      -> Given an integer array nums, find the contiguous subarray
@@ -30,3 +33,6 @@ public:
     }
 };
 
+
+
+#endif /* Solution53_hpp */

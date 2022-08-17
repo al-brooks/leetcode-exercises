@@ -1,3 +1,6 @@
+#ifndef Solution704_hpp
+#define Solution704_hpp
+
 /*
  Problem 704: Binary Search:
  -> Given an array of integers nums, which is sorted in
@@ -33,3 +36,4 @@ public:
     }
 };
 
+#endif

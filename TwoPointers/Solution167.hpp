@@ -1,3 +1,6 @@
+#ifndef Solution167_hpp
+#define Solution167_hpp
+
 // Prolem 167: Two Sum II - Input Array is Sorted
 
 #include <vector>
@@ -24,3 +27,4 @@ public:
     }
 };
 
+#endif

@@ -1,3 +1,6 @@
+#ifndef Solution35_hpp
+#define Solution35_hpp
+
 // Problem 35: Search Insert Position
 #include <vector>
 
@@ -23,3 +26,4 @@ public:
     }
 };
 
+#endif

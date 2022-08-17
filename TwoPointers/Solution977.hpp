@@ -1,3 +1,6 @@
+#ifndef Solution977_hpp
+#define Solution977_hpp
+
 /*
  Problem 977: Squares of a Sorted Array
  -> Given an integer array nums, sorted in increasing order,
@@ -33,3 +36,4 @@ public:
     }
 };
 
+#endif

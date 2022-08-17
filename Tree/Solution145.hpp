@@ -1,3 +1,6 @@
+#ifndef Solution145_hpp
+#define Solution145_hpp
+
 // Problem 145: Binary Tree Postorder Traversal
 // Traversal - Left, Right, Root
 #include "TreeNode.hpp"
@@ -50,3 +53,6 @@ public:
         return nodes;
     }
 };
+
+
+#endif /* Solution145_hpp */

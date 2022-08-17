@@ -1,3 +1,6 @@
+#ifndef Solution3_hpp
+#define Solution3_hpp
+
 // Problem 3: Longest Substring Without Repeating Characters
 #include <string>
 #include <unordered_map>
@@ -32,3 +35,5 @@ public:
         return max_str;
     }
 };
+
+#endif

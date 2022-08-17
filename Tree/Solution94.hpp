@@ -1,3 +1,6 @@
+#ifndef Solution94_hpp
+#define Solution94_hpp
+
 // Problem 94: Binary Tree Inorder Traversal
 // Inorder Traversal: Left, Root, Right
 #include "TreeNode.hpp"
@@ -42,3 +45,6 @@ public:
     }
     
 };
+
+
+#endif /* Solution94_hpp */

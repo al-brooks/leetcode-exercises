@@ -1,3 +1,6 @@
+#ifndef Solution567_hpp
+#define Solution567_hpp
+
 // Problem: 557: Reverse Words in a String III
 #include <vector>
 #include <string>
@@ -28,3 +31,4 @@ public:
     }
 };
 
+#endif

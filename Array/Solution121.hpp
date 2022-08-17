@@ -1,9 +1,12 @@
+#ifndef Solution121_hpp
+#define Solution121_hpp
+
 // Problem 121: Best Time to Buy and Sell Stock
 #include <vector>
 
 using std::vector;
 
-class Solution {
+class Solution121 {
 public:
     int maxProfit(vector<int> &prices) {
         int max = 0;
@@ -21,3 +24,6 @@ public:
     }
 };
 
+
+
+#endif /* Solution121_hpp */

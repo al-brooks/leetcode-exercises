@@ -1,3 +1,6 @@
+#ifndef Solution383_hpp
+#define Solution383_hpp
+
 // Problem 383: Ransom Note
 #include <string>
 #include <vector>
@@ -27,3 +30,6 @@ public:
         return true;
     }
 };
+
+
+#endif /* Solution383_hpp */

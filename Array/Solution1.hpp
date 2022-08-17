@@ -1,3 +1,6 @@
+#ifndef Solution1_hpp
+#define Solution1_hpp
+
 // Problem 1: Two Sum
 
 #include <vector>
@@ -26,3 +29,6 @@ public:
     }
 };
 
+
+
+#endif /* Solution1_hpp */

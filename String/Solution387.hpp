@@ -1,3 +1,6 @@
+#ifndef Solution387_hpp
+#define Solution387_hpp
+
 // Problem 387: First Unique Character in a String
 #include <string>
 #include <unordered_map>
@@ -42,3 +45,6 @@ public:
         return -1;
     }
 };
+
+
+#endif /* Solution387_hpp */

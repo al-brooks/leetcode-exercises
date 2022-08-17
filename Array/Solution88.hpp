@@ -1,9 +1,12 @@
+#ifndef Solution88_hpp
+#define Solution88_hpp
+
 // Problem 88: Merge Sorted Array
 #include <vector>
 
 using std::vector;
 
-class Solution {
+class Solution88 {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         int ptr1 = m - 1; // end of first array values
@@ -25,3 +28,6 @@ public:
     }
 };
 
+
+
+#endif /* Solution88_hpp */

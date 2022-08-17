@@ -1,3 +1,6 @@
+#ifndef Solution567_hpp
+#define Solution567_hpp
+
 // Problem 567: Permutation in String
 #include <string>
 #include <vector>
@@ -28,3 +31,5 @@ public:
         return false;
     }
 };
+
+#endif

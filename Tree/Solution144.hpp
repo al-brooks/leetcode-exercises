@@ -1,3 +1,6 @@
+#ifndef Solution144_hpp
+#define Solution144_hpp
+
 // Problem 144: Binary Tree Preorder Traversal
 // Preorder Traversal - Root, Left, Right
 #include "TreeNode.hpp"
@@ -39,3 +42,6 @@ public:
         return nodes;
     }
 };
+
+
+#endif /* Solution144_hpp */

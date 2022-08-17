@@ -1,3 +1,6 @@
+#ifndef Solution242_hpp
+#define Solution242_hpp
+
 // Problem 242: Valid Anagram
 #include <string>
 #include <unordered_map>
@@ -31,3 +34,6 @@ public:
         return true;
     }
 };
+
+
+#endif /* Solution242_hpp */

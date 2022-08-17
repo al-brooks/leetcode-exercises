@@ -1,3 +1,6 @@
+#ifndef Solution36_hpp
+#define Solution36_hpp
+
 // Problem 36: Valid Sudoku
 #include <vector>
 #include <unordered_set>
@@ -76,3 +79,6 @@ public:
         return true;
     }
 };
+
+
+#endif /* Solution36_hpp */

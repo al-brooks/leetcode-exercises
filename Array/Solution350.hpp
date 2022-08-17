@@ -1,3 +1,6 @@
+#ifndef Solution350_hpp
+#define Solution350_hpp
+
 // Problem 350: Intersection of Two Arrays II
 
 #include <vector>
@@ -5,7 +8,7 @@
 
 using std::vector, std::unordered_map;
 
-class Solution {
+class Solution350 {
 public:
     // accepted
     vector<int> intersect(vector<int> &nums1, vector<int> &nums2) {
@@ -37,3 +40,5 @@ public:
     }
 };
 
+
+#endif /* Solution350_hpp */

@@ -1,3 +1,6 @@
+#ifndef Solution74_hpp
+#define Solution74_hpp
+
 // Problem 74: Search a 2D Matrix
 #include <vector>
 
@@ -33,3 +36,6 @@ public:
         return false;
     }
 };
+
+
+#endif /* Solution74_hpp */

@@ -1,14 +1,5 @@
-//
-//  main.cpp
-//  DataStructures_Algorithms
-//
-//  Created by Alexander Brooks on 8/10/22.
-//
+// General Problems - No Specific Category
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
     return 0;
 }

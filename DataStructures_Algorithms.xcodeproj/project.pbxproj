@@ -164,6 +164,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		028E3C1828B403F200D72BBD /* Solution342.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution342.hpp; sourceTree = "<group>"; };
 		02E8C8CE28A42D2E0056C7BD /* DataStructures_Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures_Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E8C8D128A42D2E0056C7BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		02E8C8DC28A42DD40056C7BD /* BinarySearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinarySearch; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -373,6 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				02E8C8D128A42D2E0056C7BD /* main.cpp */,
+				028E3C1828B403F200D72BBD /* Solution342.hpp */,
 			);
 			path = DataStructures_Algorithms;
 			sourceTree = "<group>";

@@ -1,4 +1,5 @@
 #include "Solution3.hpp"
+#include "Solution567.hpp"
 #include <iostream>
 
 int main() {

@@ -1,13 +1,18 @@
 #include "ListNode.hpp"
+#include "Solution83.hpp"
 
 int main() {
-    ListNode *test{nullptr};
+    ListNode *head{nullptr};
+    std::vector<int> nums {1, 1, 2};
+    createFromVector(head, nums);
+    printList(head);
     
-    insertAtHead(test, 14);
-    insertAtHead(test, 23);
-    printList(test);
+    Solution83 test83;
+    test83.deleteDuplicates(head);
     
-    delete test;
+    printList(head);
+    
+    delete head;
     
     return 0;
 }

@@ -1,14 +1,12 @@
-//
-//  main.cpp
-//  StackQueue
-//
-//  Created by Alexander Brooks on 8/10/22.
-//
+#include "Solution20.hpp"
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    std::cout << std::boolalpha;
+    
+    Solution20 test;
+    std::cout << test.isValid("()[]{}") << std::endl;
+    
     return 0;
 }

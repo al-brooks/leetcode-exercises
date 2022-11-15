@@ -7,11 +7,10 @@ int main() {
     createFromVector(head, nums);
     printList(head);
     
-    Solution83 test83;
-    test83.deleteDuplicates(head);
-    
-    printList(head);
-    
+//    Solution83 test83;
+//    test83.deleteDuplicates(head);
+//    printList(head);
+        
     delete head;
     
     return 0;

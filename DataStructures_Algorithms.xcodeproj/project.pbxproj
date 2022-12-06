@@ -228,6 +228,7 @@
 		02E8CA3928AD6EB60056C7BD /* Solution1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1.hpp; sourceTree = "<group>"; };
 		02E8CA3C28AD6EE70056C7BD /* Solution53.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution53.hpp; sourceTree = "<group>"; };
 		02E8CA3F28AD6F160056C7BD /* Solution217.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution217.hpp; sourceTree = "<group>"; };
+		02EAA7FC293FFCAB009F4DC9 /* Solution1971-b.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Solution1971-b.hpp"; sourceTree = "<group>"; };
 		02F2608528CFE56B00DE76C6 /* Solution141.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution141.hpp; sourceTree = "<group>"; };
 		02F2608828CFE59A00DE76C6 /* ListNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNode.hpp; sourceTree = "<group>"; };
 		02F2608B28D250A700DE76C6 /* Solution21.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution21.hpp; sourceTree = "<group>"; };
@@ -428,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				02E8C8FF28A42E1B0056C7BD /* main.cpp */,
+				02EAA7FC293FFCAB009F4DC9 /* Solution1971-b.hpp */,
 			);
 			path = DepthFirstSearch;
 			sourceTree = "<group>";

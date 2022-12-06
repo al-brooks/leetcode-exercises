@@ -1,14 +1,7 @@
-//
-//  main.cpp
-//  BreadthFirstSearch
-//
-//  Created by Alexander Brooks on 8/10/22.
-//
-
 #include <iostream>
+#include "Solution1971.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
     return 0;
 }

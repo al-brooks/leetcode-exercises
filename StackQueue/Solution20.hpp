@@ -12,39 +12,41 @@ public:
         if (s.size() % 2 == 1)
             return false;
         
-        std::unordered_map<char, int> chars {
-            {'(', -1},
-            {'[', -2},
-            {'{', -3},
-            {')', 1},
-            {']', 2},
-            {'}', 3},
-        };
         std::stack<char> s_stack;
         
-        for (char symbol: s) {
-            if (chars[symbol] < 0) {
-                // open bracket
-                s_stack.push(symbol);
+        for (char c: s) {
+            if (c == '[' || c == '(' || c == '{') {
+                s_stack.push(c);
             } else {
-                // closing bracket
-                if (!s_stack.empty()) {
-                    char val = s_stack.top();
-                    s_stack.pop();
-                    
-                    if (chars[val] + chars[symbol] != 0)
-                        return false;
-                } else {
-                    return false;
+                switch (c) {
+                    case ']':
+                        if (!s_stack.empty() && s_stack.top() == '[' ) {
+                            s_stack.pop();
+                        } else {
+                            return false;
+                        }
+                        break;
+                    case ')':
+                        if (!s_stack.empty() && s_stack.top() == '(') {
+                            s_stack.pop();
+                        } else {
+                            return false;
+                        }
+                        break;
+                    case '}':
+                        if (!s_stack.empty() && s_stack.top() == '{') {
+                            s_stack.pop();
+                        } else {
+                            return false;
+                        }
+                        break;
+                    default:
+                        break;
                 }
             }
         }
         
-        if (!s_stack.empty())
-            return false;
-        
-        return true;
-        
+        return (s_stack.empty() ? true : false);
     }
     
 };
